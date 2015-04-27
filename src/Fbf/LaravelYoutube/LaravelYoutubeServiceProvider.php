@@ -18,7 +18,7 @@ class LaravelYoutubeServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('fbf/laravel-youtube');
+		//$this->package('fbf/laravel-youtube');
 
 		include __DIR__.'/../../routes.php';
 	}
